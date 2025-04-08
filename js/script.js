@@ -4,7 +4,7 @@ function init(){
     function showMeText(){
       var textbox = document.getElementById('entryinput');
       document.getElementById('textoutput').innerHTML = textbox.value;
-      alert("Xander Fry: " + textbox.value);
+      alert("Bernard Ngangsic-Asongu: " + textbox.value);
     }
   
     button.addEventListener('click', showMeText);
